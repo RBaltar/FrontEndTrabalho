@@ -1,0 +1,11 @@
+.bannerVenda{
+    display: flex;
+    color: rgb(0, 0, 0);
+    background-blend-mode: darken;
+}
+#tituloBV{
+    font-size: 152;
+}
+.body{
+    background-clip: border-box, red;
+}
