@@ -1,0 +1,8 @@
+body {
+    background-image: ("background.png");
+    background-color: #cccccc;
+   }
+
+   a:hover {
+    background-color: #fe4c4c;
+}
