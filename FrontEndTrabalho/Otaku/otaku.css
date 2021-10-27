@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover');
+body{
+    background-color: black;
+}
+
+.titulo{
+    font-size: 18px;
+    font-family: 'Irish Grover', cursive;
+    text-align: center;
+}
+
+.naruto{
+    font-size: 15px;
+}
+
+.back{
+    background-color: white;
+    width: ;
+}
