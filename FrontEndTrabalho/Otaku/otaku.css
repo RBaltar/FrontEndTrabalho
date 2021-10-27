@@ -1,47 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover');
 body{
-    background-image: url("background.png");
-    background-color: #000;
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-}
-
-.banner{
-    position: fixed;
-    margin-top: 200px;
-    top: 50px;
-    margin-left: 20px;
-}
-.banner2{
-    position: fixed;
-    margin-top: 200px;
-    top: 50px;
-    right: 20px;
-}
-
-.container{
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-
-.carrosel{
-    position: absolute;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    width: 500px;
-    height: 200px;
-    left: 50%;
-    margin-left: -250px;
+    background-color: black;
 }
 
 .titulo{
-    color: cornsilk;
     font-size: 18px;
     font-family: 'Irish Grover', cursive;
     text-align: center;
@@ -51,22 +13,7 @@ body{
     font-size: 15px;
 }
 
-.preco{
-    justify-content: space-around;
-    text-align: center;
-    height: 25px;
-}
-
 .back{
     background-color: white;
-    border-radius: 5%;
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
-    width: 265px;
-    height: 500px;
-}
-
-.back img{
-    margin-top: 20px;
+    width: ;
 }
