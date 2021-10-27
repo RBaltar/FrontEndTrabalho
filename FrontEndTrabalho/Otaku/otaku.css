@@ -42,7 +42,6 @@ body{
 
 
 .titulo{
-    color: cornsilk;
     font-size: 18px;
     font-family: 'Irish Grover', cursive;
     text-align: center;
@@ -52,22 +51,7 @@ body{
     font-size: 15px;
 }
 
-.preco{
-    justify-content: space-around;
-    text-align: center;
-    height: 25px;
-}
-
 .back{
     background-color: white;
-    border-radius: 5%;
-    display: flexbox;
-    justify-content: center;
-    text-align: center;
-    width: 265px;
-    height: 500px;
-}
-
-.back img{
-    margin-top: 20px;
+    width: ;
 }
