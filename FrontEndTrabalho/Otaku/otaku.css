@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Irish+Grover');
 body{
+    margin: 0;
     background-image: url("background.png");
     background-color: #000;
     height: 100%;
@@ -7,6 +8,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+}
+.carrosel{
+    position: absolute;
+    justify-content: center;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    left: 50%;
+    margin-left: -250px;
 }
 
 .banner{
@@ -28,17 +40,6 @@ body{
     flex-wrap: wrap;
 }
 
-.carrosel{
-    position: absolute;
-    justify-content: center;
-    padding: 30px;
-    text-align: center;
-    align-items: center;
-    width: 500px;
-    height: 200px;
-    left: 50%;
-    margin-left: -250px;
-}
 
 .titulo{
     color: cornsilk;
