@@ -6,19 +6,8 @@ body{
     height: 100%;
     background-position: center;
     background-repeat: repeat;
-    background-size: auto;
+    /* background-size: auto; */
     position: relative;
-}
-.carrosel{
-    position: absolute;
-    justify-content: center;
-    padding: 3px;
-    text-align: center;
-    align-items: center;
-    width: 500px;
-    height: 200px;
-    left: 50%;
-    margin-left: -250px;
 }
 
 .banner{
@@ -36,10 +25,12 @@ body{
 
 .container{
     display: flex;
-    justify-content: space-evenly;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
 }
-
 
 .titulo{
     color: cornsilk;
@@ -64,6 +55,7 @@ body{
     text-align: center;
     width: 265px;
     height: 400px;
+    margin: 30px;    
 }
 
 .back img{
@@ -80,4 +72,8 @@ body{
     cursor: pointer;
     background-color: #ff4c4c;
     filter: brightness(0.8);
+}
+.carousel-inner{
+    max-height: 412px !important;
+    max-width: 900px !important;
 }
