@@ -95,3 +95,8 @@ body{
     width: auto;
     height: auto;
 }
+
+carousel inner{
+    max-height: 500px;
+    max-width: 700px;
+}
