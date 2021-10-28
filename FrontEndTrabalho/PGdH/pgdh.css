@@ -1,11 +1,71 @@
-.bannerVenda{
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover');
+body{
+    margin: 0;
+    background-image: url("background.png");
+    background-color: #000;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.carrosel{
+    position: absolute;
+    justify-content: center;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    left: 50%;
+    margin-left: -250px;
+}
+
+.banner{
+    position: fixed;
+    margin-top: 200px;
+    top: 50px;
+    margin-left: 20px;
+}
+.banner2{
+    position: fixed;
+    margin-top: 200px;
+    top: 50px;
+    right: 20px;
+}
+
+.container{
     display: flex;
-    color: rgb(0, 0, 0);
-    background-blend-mode: darken;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
-#tituloBV{
-    font-size: 152;
+
+
+.titulo{
+    color: cornsilk;
+    font-size: 18px;
+    text-align: center;
 }
-.body{
-    background-clip: border-box, red;
+
+.info{
+    font-size: 15px;
+}
+
+.preco{
+    justify-content: space-around;
+    text-align: center;
+    height: 25px;
+}
+
+.back{
+    background-color: white;
+    border-radius: 5%;
+    justify-content: center;
+    text-align: center;
+    width: 265px;
+    height: 500px;
+}
+
+.back img{
+    margin-top: 20px;
 }
