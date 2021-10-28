@@ -6,6 +6,9 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: 0;
+    padding: 0;
+    
 }
 
 /*Controla a div dos três jogos */
@@ -15,8 +18,9 @@ body{
     flex-direction: row;
     justify-content: center;
     align-items: center;  
-        
- 
+    flex-wrap: wrap
+    
+    
 }
 
 
@@ -29,8 +33,8 @@ body{
     height: 500px;
     background-color: white;
     border-radius: 20px;
-
-    
+   
+ 
 }
 
 /*Controla as imagens dos jogos*/
@@ -39,6 +43,7 @@ body{
     height: 250px;
     position: static;
     border-radius: 20px;
+    
  
 }
 
@@ -47,12 +52,14 @@ body{
     text-align: center;
     font-size: 18px;
     font-weight: bold;
+    
 }
 
 .descricao{
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
+ 
 }
 
 
@@ -62,5 +69,18 @@ body{
     text-align: center;
     font-size: 30px; 
     font-weight: bold;
+    color: #ff4c4c;
+  
+}
+.botao-compra{
+    border: 1px solid rgb(73, 21, 0);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.botao-compra:hover{
+    cursor: pointer;
+    background-color: #ff4c4c;
+    filter: brightness(0.8);
 }
 

@@ -2,159 +2,275 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Retro</title>
-    <link rel="stylesheet" href="retro.css">
-    <!--boot css-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <!--boot js-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
-        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
-        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
-    </script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro</title>
+  <link rel="stylesheet" href="retro.css">
+  <!--boot css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <!--boot js-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
+  </script>
+
+  <!--FONTE-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+
+  <style>
+    body{font-family: 'Play', sans-serif;}
+  </style>
+  
 
 </head>
 
 <body img=>
 
-    <!----------------------------------------CAROUSEL---------------------->
+  <!----------------------------------------CAROUSEL---------------------->
+  <div class="container">
     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="imagens/carousel/cr-mario.jpg" class="d-block w-100" alt="..." height="550px" width="550px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Personagens marcantes!</h5>
-              <p>Relembre os personagens mais queridos pelos old gamers </p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imagens/carousel/cr-pac.jpg" class="d-block w-100" alt="..." height="550px" width="550px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Second slide label</h5>
-              <p>Some representative placeholder content for the second slide.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="imagens/carousel/cr-sega.jpg" class="d-block w-100" alt="..." height="550px" width="550px">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+
       </div>
-      <!-------------------------FIM-CAROUSEL------------------------------>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img id="carousel" src="./imagens/carousel/cr-sega.png" class="d-block w-100" alt="info">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carousel" src="./imagens/carousel/cr-mario.jpg" class="d-block w-100" alt="goku">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carousel" src="./imagens/carousel/cr-pac.png" class="d-block w-100" alt="Jump Force">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img id="carousel" src="./imagens/carousel/cr-oldgames.jpg" class="d-block w-100" alt="Jump Force">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
 
-      
-    <!--DIV que controla os três jogos -->
-    <div class="container">
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/zelda-snes.png" alt="">
-            <p class="nome-jogo">The Legend of Zelda: A Link to the Past</p>
-            <p class="descricao">Gênero: Ação/Aventura</p>
-            <p class="descricao">Plataforma: Super Nintendo</p>
-            <p class="preco">R$350,00</p>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/megaman7-snes.png" alt="" srcset="">
-            <p class="nome-jogo">Megaman 7 <p></p> <p>
-            <p class="descricao">Gênero: Plataforma/Ação</p>
-            <p class="descricao">Plataforma: Super Nintendo</p>
-            <h2 class="preco">R$ 350,00</h2>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/castlevania-snes.png" alt="" srcset="">
-            <p class="nome-jogo">Castrevania Dracula X</p>
-            <p class="descricao">Gênero: Plataforma/Ação</p>
-            <p class="descricao">Plataforma: Nintendo</p>
-            <h2 class="preco" >R$ 350,00</h2>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-    </div>
-    <!--FINAL DA DIVE-->
-
-     <!--DIV que controla os três jogos -->
-     <div class="container">
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/mariobros3-nes.png" alt="" srcset="">
-            <p class="nome-jogo">Super Mario Bross 3</p>
-            <p class="descricao">Gênero: Plataforma/Aventura</p>
-            <p class="descricao">Plataforma: Nintendinho</p>
-            <h2 class="preco" >R$ 350,00</h2>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/metroid-nes.png" alt="" srcset="">
-            <p class="nome-jogo">Metroid</p>
-            <p class="descricao">Gênero: Plataforma/Ação</p>
-            <p class="descricao">Plataforma: Nintendinho</p>
-            <h2 class="preco" >R$ 350,00</h2>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-        <div class="jogo">
-            <img class="imagem-jogo" src="imagens/jogos/zelds-nes.png" alt="" srcset="">
-            <p class="nome-jogo">The Legend of Zelda</p>
-            <p class="descricao">Gênero: Ação/Aventura</p>
-            <p class="descricao">Plataforma: Nintendinho</p>
-            <h2 class="preco" >R$ 350,00</h2>
-            <button class="botao-compra">COMPRAR</button>
-        </div>
-    </div>
-    <!--FINAL DA DIVE-->
-
-    <!--DIV que controla os três jogos -->
-    <div class="container">
-      <div class="jogo">
-          <img class="imagem-jogo" src="imagens/jogos/mickey-mega.png" alt="" srcset="">
-          <p class="nome-jogo">Mickey Mania</p>
-          <p class="descricao">Gênero: Plataforma/Aventura</p>
-          <p class="descricao">Plataforma: Mega Drive</p>
-          <h2 class="preco" >R$ 350,00</h2>
-          <button class="botao-compra">COMPRAR</button>
       </div>
-      <div class="jogo">
-        <img class="imagem-jogo" src="imagens/jogos/sonic-mega.png" alt="" srcset="">
-        <p class="nome-jogo">Sonic the Hedgehog</p>
-        <p class="descricao">Gênero: Plataforma/Aventura</p>
-        <p class="descricao">Plataforma: Mega Drive</p>
-        <h2 class="preco" >R$ 350,00</h2>
-        <button class="botao-compra">COMPRAR</button>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!-------------------------FIM-CAROUSEL------------------------------>
+
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/zelda-snes.png" alt="capa jogo zelda"
+        title="The legend of Zelda: A Link to the Past">
+      <p class="nome-jogo">The Legend of Zelda: A Link to the Past</p>
+      <p class="descricao">Gênero: Ação/Aventura</p>
+      <p class="descricao">Plataforma: Super Nintendo</p>
+      <p class="preco">R$250,00</p>
+      <button class="botao-compra">COMPRAR</button>
     </div>
     <div class="jogo">
-      <img class="imagem-jogo" src="imagens/jogos/street-mega.png" alt="" srcset="">
+      <img class="imagem-jogo" src="imagens/jogos/megaman7-snes.png" alt="capa jogo megamaman 7" title="Megaman 7">
+      <p class="nome-jogo">Megaman 7 <p></p>
+        <p>
+          <p class="descricao">Gênero: Ação</p>
+          <p class="descricao">Plataforma: Super Nintendo</p>
+          <h2 class="preco">R$ 250,00</h2>
+          <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/castlevania-snes.png" alt="capa jogo dracula x"
+        title="Castlevania Dracula X">
+      <p class="nome-jogo">Castrevania Dracula X</p>
+      <p class="descricao">Gênero: Ação</p>
+      <p class="descricao">Plataforma: Super Nintendo</p>
+      <h2 class="preco">R$ 250,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+  </div>
+  <!--FINAL DA DIVE-->
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/mariobros3-nes.png" alt="capa jogo mario bross 3"
+        title="Super Mario Bross 3">
+      <p class="nome-jogo">Super Mario Bross 3</p>
+      <p class="descricao">Gênero: Aventura</p>
+      <p class="descricao">Plataforma: Nintendinho</p>
+      <h2 class="preco">R$ 350,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/metroid-nes.png" alt="capa jogo metroid" title="Metroid">
+      <p class="nome-jogo">Metroid</p>
+      <p class="descricao">Gênero: Ação</p>
+      <p class="descricao">Plataforma: Nintendinho</p>
+      <h2 class="preco">R$ 350,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/zelds-nes.png" alt="capa jogo zelda" title="The Legend of Zelda">
+      <p class="nome-jogo">The Legend of Zelda</p>
+      <p class="descricao">Gênero: Ação/Aventura</p>
+      <p class="descricao">Plataforma: Nintendinho</p>
+      <h2 class="preco">R$ 350,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+  </div>
+  <!--FINAL DA DIVE-->
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/mickey-mega.png" alt="capa jogo mickey" title="Mickey Mania">
+      <p class="nome-jogo">Mickey Mania</p>
+      <p class="descricao">Gênero: Aventura</p>
+      <p class="descricao">Plataforma: Mega Drive</p>
+      <h2 class="preco">R$ 240,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/sonic-mega.png" alt="capa jogo sonic" title="Sonic the Hedgehog">
+      <p class="nome-jogo">Sonic the Hedgehog</p>
+      <p class="descricao">Gênero: Aventura</p>
+      <p class="descricao">Plataforma: Mega Drive</p>
+      <h2 class="preco">R$ 240,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/street-mega.png" alt="capa jogo street of rage 2"
+        title="Street of Rage 2">
       <p class="nome-jogo">Street of Rage 2</p>
       <p class="descricao">Gênero: Beat 'em up</p>
       <p class="descricao">Plataforma: Mega Drive</p>
-      <h2 class="preco" >R$ 350,00</h2>
+      <h2 class="preco">R$ 240,00</h2>
       <button class="botao-compra">COMPRAR</button>
-  </div>
-
-
+    </div>
   </div>
   <!--FINAL DA DIVE-->
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/metalgear-ps1.png" alt="capa jogo metal gear"
+        title="Metal Gear Solid">
+      <p class="nome-jogo">Metal Gear Solid</p>
+      <p class="descricao">Gênero: Ação/Stealth</p>
+      <p class="descricao">Plataforma: Playstation 1</p>
+      <h2 class="preco">R$ 100,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/silenthill-ps1.png" alt="capa jogo silent hill" title="Silent Hill">
+      <p class="nome-jogo">Silent Hill</p>
+      <p class="descricao">Gênero: Terror</p>
+      <p class="descricao">Plataforma: Playstation 1 </p>
+      <h2 class="preco">R$ 100,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/ff-ps1.png" alt="capa jogo final fantasy" title="Final Fantasy VIII">
+      <p class="nome-jogo">Final Fantasy VIII</p>
+      <p class="descricao">Gênero: Rpg</p>
+      <p class="descricao">Plataforma: Playstation 1</p>
+      <h2 class="preco">R$ 100,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+  </div>
+  <!--FINAL DA DIVE-->
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/harvest moon-64.png" alt="capa jogo Harvest Moon 64"
+        title="Harvest Moon 64">
+      <p class="nome-jogo">Harvest Moon 64</p>
+      <p class="descricao">Gênero: Simulação</p>
+      <p class="descricao">Plataforma: Nintendo 64</p>
+      <h2 class="preco">R$ 200,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/mario-n64.png" alt="capa jogo Super Mario 64" title="Super Mario 64">
+      <p class="nome-jogo">Super Mario 64</p>
+      <p class="descricao">Gênero: Aventura</p>
+      <p class="descricao">Plataforma: Nintendo 64 </p>
+      <h2 class="preco">R$ 200,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/papermario-n64.png" alt="capa jogo Paper Mario 64"
+        title="Paper Mario 64">
+      <p class="nome-jogo">Paper Mario 64</p>
+      <p class="descricao">Gênero: Rpg/Aventura</p>
+      <p class="descricao">Plataforma: Nintendo 64</p>
+      <h2 class="preco">R$ 200,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+  </div>
+  <!--FINAL DA DIVE-->
+
+  <!--DIV que controla os três jogos -->
+  <div class="container">
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/tomby-gba.png" alt="capa tomby raider"
+        title="Tomby Rainder - Starring Lara">
+      <p class="nome-jogo">Tomb Raider - Starring Lara Croft</p>
+      <p class="descricao">Gênero: Ação/Aventura</p>
+      <p class="descricao">Plataforma: Game Boy Color</p>
+      <h2 class="preco">R$ 300,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/starwars-gba.png" alt="capa jogo Star Wars"
+        title="Star Wars - Obi-Wa'ns Adventure">
+      <p class="nome-jogo">Star Wars - Obi-Wa'ns Adventure</p>
+      <p class="descricao">Gênero: Ação/Aventura</p>
+      <p class="descricao">Plataforma: Game Boy Color </p>
+      <h2 class="preco">R$ 300,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+    <div class="jogo">
+      <img class="imagem-jogo" src="imagens/jogos/driver-gba.png" alt="capa jogo Driver" title="Driver">
+      <p class="nome-jogo">Driver</p>
+      <p class="descricao">Gênero: Corrida</p>
+      <p class="descricao">Plataforma: Game Boy Color</p>
+      <h2 class="preco">R$ 300,00</h2>
+      <button class="botao-compra">COMPRAR</button>
+    </div>
+  </div>
+  <!--FINAL DA DIVE-->
+
 
 
 
