@@ -9,29 +9,24 @@ body{
     background-size: cover;
     position: relative;
 }
-.carrosel{
-    position: absolute;
-    justify-content: center;
-    padding: 3px;
-    text-align: center;
-    align-items: center;
-    width: 500px;
-    height: 200px;
-    left: 50%;
-    margin-left: -250px;
+
+.preco button{
+    border: 1px solid #ff4c4c;
+    border-radius: 5px;
+    height: 30px;
 }
 
-.banner{
-    position: fixed;
-    margin-top: 200px;
-    top: 50px;
-    margin-left: 20px;
+.preco button:hover{
+    cursor: pointer;
+    background-color: #ff4c4c;
+    filter: brightness(0.8);
 }
-.banner2{
-    position: fixed;
-    margin-top: 200px;
-    top: 50px;
-    right: 20px;
+
+.carrossel{
+    padding: 30px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
 }
 
 .container{
@@ -61,7 +56,7 @@ body{
 .back{
     background-color: white;
     border-radius: 5%;
-    display: flexbox;
+    display: block;
     justify-content: center;
     text-align: center;
     width: 265px;
@@ -70,4 +65,18 @@ body{
 
 .back img{
     margin-top: 20px;
+}
+
+.banner{
+    position: fixed;
+    margin-top: 100px;
+    top: 50px;
+    margin-left: 20px;
+}
+
+.banner2{
+    position: fixed;
+    margin-top: 100px;
+    top: 50px;
+    right: 20px;
 }
