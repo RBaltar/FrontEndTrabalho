@@ -1,24 +1,71 @@
 body{
+    background-color:black;
+    background-image: url("imagens/background.png");
+    size: auto;
+    background-repeat: repeat;
     margin: 0;
     padding: 0;
+    
 }
+
+
+.pesquisa{  
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    flex-wrap: wrap  
+}
+
+.barra-pesquisa{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 402px;
+    height: 50px;
+    background-color:  #ffffff;
+    border: 3px solid #ff4c4c;;
+    color: #ff4c4c;
+    border-radius: 20px;
+    margin-bottom: 55px;
+}
+
+#texto-barra{
+    font-size: 35px;
+}
+
+input{
+    border-radius: 5px;
+    border: 2px solid #575757;
+   
+}
+
 
 /*Controla a div dos três jogos */
 .container{
     display: flex;
+    text-align: center;
     flex-direction: row;
     justify-content: center;
-    align-items: center;        
- 
+    align-items: center;  
+    flex-wrap: wrap
+    
+    
 }
 
 
 /*Controla a div de cada jogo específico   */
 .jogo{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
     width: 402px;
     height: 500px;
-    border: 1px solid black;
-    
+    background-color: white;
+    border-radius: 20px;
+   
+ 
 }
 
 /*Controla as imagens dos jogos*/
@@ -26,19 +73,38 @@ body{
     width: 400px;
     height: 250px;
     position: static;
+    border-radius: 20px;
+    
  
 }
 
 /*Controla o parágrafo com nome dos jogos */
 .nome-jogo{
-    text-align: center;
-    font-size: 18px;
+    color: #ff4c4c;
+    font-weight: bolder;
+    font-size: 22px;
+    text-decoration: none;
+    
 }
+
+.nome-jogo:hover{
+    color: #ff4c4c;
+}
+
+/*Tirando as bolinhas das listas */
+ul{
+    list-style: none;
+}
+
+
+
+
 
 .descricao{
     text-align: center;
     font-size: 18px;
     margin-top: 20px;
+ 
 }
 
 
@@ -48,5 +114,18 @@ body{
     text-align: center;
     font-size: 30px; 
     font-weight: bold;
+    color: #ff4c4c;
+  
+}
+.botao-compra{
+    border: 1px solid rgb(73, 21, 0);
+    border-radius: 5px;
+    height: 30px;
+}
+
+.botao-compra:hover{
+    cursor: pointer;
+    background-color: #ff4c4c;
+    filter: brightness(0.8);
 }
 
