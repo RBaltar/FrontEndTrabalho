@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    background-image: url("background.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    position: relative;
+}
+/*.carrosel{
+    position: inherit;
+    justify-content: center;
+    padding: 3px;
+    text-align: center;
+    align-items: center;
+    width: 500px;
+    height: 700px;
+    left: 50%;
+    margin-left: -250px;
+}*/
+.carousel{
+    max-width: 600px !important;
+    max-height: 700px !important;
+    
+}
+
+#titulo{
+    background-color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 30px;
+}
+.back{
+    width: 250px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+    border-radius: 05%;
+}
+.back img{
+    margin-top: 10px;
+    border-radius: 05%;
+}
+.botao{
+    border: 1px solid rgb(73, 21, 0);
+    border-radius: 5px;
+    height: 30px;
+    }
+    
+.botao:hover{
+    cursor: pointer;
+    background-color: #ff4c4c;
+    filter: brightness(0.8);
+}
+
+
+.container{
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+
+
+}
+.nomes{
+    font-size: 20px;
+}
