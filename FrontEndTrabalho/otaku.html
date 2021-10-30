@@ -25,25 +25,21 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
+      
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"
             integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
             crossorigin="anonymous"></script>
     </head>
 
     <body>
-        <h1>Ler página <button type="button" id="ler-pagina">Ler página</button> </h1>
         <div id="conteudo-pagina-lida"></div>
-
         <script>
-        $(document).ready(function(){
-                $("#ler-pagina").click(function(){
-
-                    $(function(){
-                        $("#conteudo-pagina-lida").load("index.html"); 
-                    });
-                })
-        });
-        </script>
+        $(window).on("load", function(){
+               $(function(){
+                    $("#conteudo-pagina-lida").load("./index.html"); 
+                });
+            });
+       </script>
             
         <!-- barra de pesquisa -->
         <div class="pesquisa">
