@@ -90,7 +90,7 @@ table td {
 }
 footer{
   width: 100%;
-  position: relative;
+  position: relative; /*MUDEI AQUI */
   bottom: 0;
   left: 0;
   background: #111;
@@ -234,3 +234,5 @@ footer a:hover{
   .barra {
       opacity: 0;
   }
+  
+}

@@ -32,7 +32,8 @@ body{
 }
 
 #texto-barra{
-    font-size: 35px;
+    font-size: 25px;
+    margin-top: 10px;
 }
 
 input{
@@ -60,7 +61,7 @@ input{
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
-    width: 402px;
+    width: 360px;
     height: 500px;
     background-color: white;
     border-radius: 20px;
@@ -70,7 +71,7 @@ input{
 
 /*Controla as imagens dos jogos*/
 .imagem-jogo{
-    width: 400px;
+    width: 330px;
     height: 250px;
     position: static;
     border-radius: 20px;
@@ -82,7 +83,7 @@ input{
 .nome-jogo{
     color: #ff4c4c;
     font-weight: bolder;
-    font-size: 22px;
+    font-size: 18px;
     text-decoration: none;
     
 }
@@ -94,9 +95,6 @@ input{
 ul{
     list-style: none;
 }
-
-
-
 
 
 .descricao{
@@ -120,6 +118,7 @@ ul{
     border: 1px solid rgb(73, 21, 0);
     border-radius: 5px;
     height: 30px;
+
 }
 
 .botao-compra:hover{
