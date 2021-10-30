@@ -109,3 +109,6 @@ a button{
     color: black;
     font-size: small;
 }
+ul{
+    list-style: none;
+}

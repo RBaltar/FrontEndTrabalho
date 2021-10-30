@@ -91,7 +91,7 @@ table td {
 footer{
   display: absolute;
   width: 100%;
-  position: fixed;
+  position: absolute;
   bottom: 0;
   left: 0;
   background: #111;
@@ -211,6 +211,7 @@ footer a:hover{
   .barra {
     opacity: 0;
 }
+}
 @media (max-width:950px){
   footer .content .box{
     width: 50%;
@@ -220,6 +221,7 @@ footer a:hover{
   }
   .barra {
     opacity: 0;
+}
 }
 @media (max-width:560px){
   footer{
@@ -235,3 +237,4 @@ footer a:hover{
   .barra {
       opacity: 0;
   }
+}
