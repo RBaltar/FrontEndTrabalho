@@ -89,8 +89,9 @@ table td {
   text-decoration: none;
 }
 footer{
+  display: absolute;
   width: 100%;
-  position: relative;
+  position: fixed;
   bottom: 0;
   left: 0;
   background: #111;

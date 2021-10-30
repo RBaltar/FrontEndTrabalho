@@ -60,8 +60,8 @@ body{
     background-color: #ff4c4c;
     filter: brightness(0.8);
 }
-.carousel-inner{
+/* .carousel-inner{
     max-height: 412px !important;
     max-width: 900px !important;
-}
+} */
 
